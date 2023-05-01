@@ -1,0 +1,58 @@
+:root{
+    --color1:#bac1b8;
+    --color2:#2b303a;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(./src/lovepik-landscape-painting-png-image_400788974_wh1200.png) ;
+    display:flex;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+}
+
+section{
+    max-width: 360px;
+    background-color:white;
+    padding:1rem;
+    border-radius:10px;
+    box-shadow:0 0 10px #0003;
+}
+section header h2{
+text-align:center;
+padding:1rem;
+border-bottom: 1px solid var(--color2);
+margin-bottom:1rem;
+}
+section footer nav a:hover{
+    color:var(--color1);
+    background-color:gray;
+}
+section footer nav {
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+section footer nav a{
+    color:var(--color1);
+    background-color:var(--color2); 
+    text-decoration:none ;
+    text-align: center;
+    padding:1rem 1rem;
+}
+article{
+    padding:1rem;
+    line-height:1.3rem ;
+    text-align:justify;
+}
+
