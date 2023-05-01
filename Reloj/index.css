@@ -1,0 +1,18 @@
+body{
+    background-color:#333;
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:monospace;
+}
+span{
+    font-size:3.5rem;
+    font-weight:bold;
+}
+header{
+    font-size:1.2rem;
+    text-align:center;
+}

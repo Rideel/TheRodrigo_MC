@@ -1,0 +1,11 @@
+{
+    "manifest_version":3,
+    "name":"hello extensions",
+    "description":"agregamos descripcion",
+    "version":"1.0",
+
+    "action":{
+        "default_popup":"popup/popup.html",
+        "defaul_icon":"img/icon_16.jpg"
+    }
+}

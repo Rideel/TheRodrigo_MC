@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header.mainheader{
+    border:solid 5px ;
+    padding:1rem;
+}
+secion.mainsection{
+    border:solid 5px;
+    padding:1rem;
+}
+footer.mainfooter{
+    border:solid 5px;
+    padding:1rem;
+}
+main{
+    max-width:1024px;
+    margin:0 auto;
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+    border:solid 5px ;
+}
+section.mainsection{
+    border:solid 5px;
+    padding:1rem;
+    flex-grow:1;
+}
+header.mainHeader form{
+    display:flex;
+    gap:0.5rem;
+}
+header.mainHeader input{
+    flex-grow:1;
+    padding:1rem 1.5rem;
+    border:none;
+    background-color:lightgray;
+    border-radius:2rem 0 0 2rem;
+}
+header.ainheader button{
+    min-width:100px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    color:white;
+    font-weight:bold;
+    background-color:dodgerblue;
+    text-transform: uppercase;
+}
+header.mainHeader{
+    padding: 1rem;
+    border-bottom:solid 1px #ddd;
+}
+footer.mainfooter{
+    border-top:solid 1px #ddd;
+    padding:1rem;
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+    color:gray;
+}
+footer.mainfooter b {
+    text-transform:capitalize;
+}
+section.mainsection{
+    padding:1rem;
+    flex-grow:1;
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+}
+article.listTodo{
+    display:flex;
+    align-items:center;
+    gap:.5rem;
+}
+article.listTodo.accept span{
+    background-color:green;
+   }
+article.listTodo.accept b{
+ background-color:green;
+ text-decoration:line-through;
+}
+article.listTodo span{
+    height:40px;
+    width:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#eee;
+}
+article.listTodo b {
+    flex-grow:1;
+    height:40px;
+    display:flex;
+    align-items: center;
+    background-color:#eee;
+    padding:0 1 rem;
+}
+article.listTodo button{
+    background-color: #eee;
+    width:40px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    border:none;
+}
+article.listTodo button.accept{
+    background-color:green;
+}
+article.listTodo button.progress{
+    background-color:orange;
+}
+article.listTodo button.remove{
+    background-color:crimson;
+}

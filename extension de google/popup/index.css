@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    max-width:780px;
+    min-width:780px;
+    min-height :600px;
+}
+main.maincards{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+}
+div.card{
+    display: flex;
+    flex-direction: column;
+    gap:.25rem;
+    padding:.5rem;
+    border:solid 1px #0003;
+}
