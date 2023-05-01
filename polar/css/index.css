@@ -1,0 +1,180 @@
+:root{
+    scroll-behavior:smooth;
+    --color1-blue:#083f92;
+    --color2-yelow:#ffc400;
+    --color3-vinotinte:#831c28;
+    --color4-black:#333;
+    --color5-snow:#ffffff;
+    --color6-snow-b:#e1e1e1;
+}
+*{
+    padding :0;
+    margin :0;
+    box-sizing:border-box;
+}
+body{
+    background-color:var(--color6-snow-b);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav{
+    background-color:var(--color5-snow);
+    height:80px;
+}
+nav div{
+    height:80px;
+    max-width:1024px;
+    display:flex;
+    align-items:center;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+nav div img {
+    max-height:70px;
+}
+nav div ul.menu{
+    list-style:none;
+    display:flex;
+}
+
+nav div ul li a{
+    padding: 1.5em 1rem;
+    text-decoration:none;
+    font-weight:bold;
+    color:var(--color4-black);
+    transition:all linear 200ms;
+    border-bottom:solid 6px transparent;
+}
+nav div ul li a:hover{
+    color:var(--color1-blue);
+    border-bottom:solid 6px var(--color1-blue);
+}
+header.main{
+    position: relative;
+    height:400px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    background-image:url(../src/main.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+}
+header h1,header h2{
+    background-color:var(--color1-blue);
+    color:var(--color5-snow);
+    padding: .5rem;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+}
+section img{
+    position: absolute;
+    height:70%;
+    filter:drop-shadow(0 0 12px #000a);
+}
+
+section{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    max-width:1024px;
+    margin:0 auto;
+    margin-top:2rem;  
+}
+section header{
+  flex-grow:1;
+  width:50%;
+  height:300px;
+  padding:2rem;
+  /* background-color:red; */
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section article{
+ width:50%;
+ flex-grow:1;
+ padding:2rem;
+ padding-left:6rem;
+ padding-right:6rem;
+ background-color:var(--color5-snow);
+ height: 300px;
+ text-align:center;
+ display:flex;
+ flex-direction: 1px;
+ gap:1rem;
+ justify-content:center;
+ align-items: center;
+ flex-direction: column;
+}
+
+section article{
+    width:50%;
+    flex-grow:1;
+    padding:2rem;
+    padding-left:6rem;
+    padding-right:6rem;
+    background-color:var(--color5-snow);
+    height: 300px;
+    text-align:center;
+   }
+
+section article h2{
+    font-weight:bold ;
+    letter-spacing:1px;
+    text-transform:capitaliz;
+    color:var(--color1-blue)
+}
+
+.pan header{
+    background-image:url(../src/logo_pan.png);
+}
+.pepsi header{
+    background-image:url(../src/logo_pepsi.jpg);
+}
+.maltin header{
+    background-image:url(../src/logo_maltin.jpg);
+}
+.midsection {
+    display: flex;
+    gap:1rem;
+    justify-content:center;
+    align-items:center;
+    background-color:var(--color1-blue);
+    max-width:100%;
+}
+.midsection img{
+    position: relative;
+    height:100px;
+    width:100px;
+    background-color:white;
+    border: solid 1rem white;
+    box-shadow: none;
+    border-radius:100%;
+    object-fit:contain;
+}
+footer{
+    background-color:var(--color4-black);
+    color:var(--color6-snow-b);
+}
+footer div{
+    max-width: 1024px;
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    justify-content:center;
+    align-items:center;
+    padding:2rem;
+}
+footer div img{
+    max-width: 300px;
+}
+footer{
+    color:var(--color5-snow);
+}
